@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(223,215,185);
+    font-style: rgb(51,51,51);
+
+}
+
+h1 {
+    font-style: #0d1b97;
+
+}
+
+job-title {
+    background-color:#1726ad;
+    font-style:  #898dbe;
+
+}
+.high {
+    font-style: rgb(13, 27, 151);
+
+}
+
+ul {
+    background-color:#333333;
+    font-style: rgb(223, 215, 185);
+}
+
