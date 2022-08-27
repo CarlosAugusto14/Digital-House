@@ -9,6 +9,9 @@
 body {
     background-color: #E5E5E5;
 }
+main {
+    
+}
 
 header {
     position: absolute;
@@ -74,7 +77,7 @@ section {
     justify-content: flex-start;
     margin-left: 19px;
     margin-top: 160px;
-    margin-bottom: 193px;
+    margin-bottom: 40px;
     margin-right: 515px;
 }
 
@@ -108,10 +111,10 @@ section {
 
 .title2 {
     position: absolute;
-    width: 205px;
-    height: 28px;
-    left: 674px;
-    top: 190px;
+    width: 491px;
+    height: 350px;
+    left: 514px;
+    top: 160px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -119,12 +122,14 @@ section {
     line-height: 28px;
     color: #FC200C;
     text-align: center;
+    background: white;
+    border-radius: 5px;
 
 }
 
 .firstpizza {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     flex-direction: row-reverse;
     align-items: flex-end;
     width: 385px;
@@ -190,7 +195,7 @@ a {
     width: 92px;
     height: 80px;
     left: 1050px;
-    top: 711px;
+    top: 560px;
 }
 
 .VectorPizza1 img {
@@ -206,7 +211,7 @@ a {
     height: 23px;
     width: 110px;
     left: 1150px;
-    top: 750px;
+    top: 590px;
     border-radius: nullpx;
 }
 
