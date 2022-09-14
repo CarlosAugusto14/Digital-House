@@ -6,52 +6,79 @@
     box-sizing: border-box;
 }
 
+.header {
+    background-color:#222222;
+    width: 100vw;
+    height: 25px;
+}
+ 
+.header p {
+   color: #ffffff;
+   margin-left: 5%;
+}
+
 .top {
-    position: absolute;
-    width: 1024px;
-    height: 30px;
-    left: calc(50% - 1024px/2);
-    top: 0px;
-    background: #222222;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
 }
 
-.top p {
-    position: absolute;
-    width: 200px;
-    height: 12px;
-    left: 90px;
-    text-align: center;
-    top: 8px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    color: #F3F3F3;
-
+.top select{
+    position: relative;
+    margin-top: -16px;
 }
 
-.selectlanguage {
-    position: absolute;
-    width: 90px;
+.section {
+    background-color: #F0A83E;
+    width: 100vw;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+    left: 31%;
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu img {
+    width: 20px;
     height: 20px;
-    right: 135px;
-    top: 4px;
+    
 }
 
-.selectcoin {
-    position: absolute;
-    width: 60px;
-    height: 20px;
-    right: 62px;
-    top: 4px;
+.icon {
+    position: relative;
+    background-image: url(./img/paw\ dog.svg);
+    background-repeat: no-repeat;
 }
 
-.Menu {
-    position: absolute;
-    width: 1024px;
-    height: 62px;
-    left: calc(50% - 1024px/2);
-    top: 30px;
-    background: #F0A83E;
+.front {
+    display: flex;
+    align-content: center;
 }
 
+.front p {
+    position: relative;
+    color: #222222;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -10px;
+    left: 25px;
+}
+
+.banner{ 
+    background-image: url(./img/imagem\ do\ banner.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 409px;
+
+}

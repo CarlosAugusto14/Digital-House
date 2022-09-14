@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.discount {
+    background-color: #1CD1B0;
+    width: 100vw;
+    height: 23px;
+}
+
+div.soon {
+    background: #00669F;
+    width: 100vw;
+    height: 61px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+div.list{
+    background-color: #001D2D;
+    width: 100vw;
+    height: 40px;
+}
